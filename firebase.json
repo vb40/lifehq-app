@@ -1,16 +1,6 @@
 {
   "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
+    "source": ".",  // 👈 This triggers Firebase to auto-detect Next.js
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
 }

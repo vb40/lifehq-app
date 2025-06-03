@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "source": ".",  // 👈 This triggers Firebase to auto-detect Next.js
+    "source": ".",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
 }
